@@ -24,6 +24,6 @@ app.get(PREFIX_URL + 'status', function(req, res) {
     modelGeneral.status( responceCallback(res) );
 });
 
-app.listen(8080, function() {
-    console.log('Все ОК. Слушаем на порту 8080.');
+app.listen(5000, function() {
+    console.log('Все ОК. Слушаем на порту 5000.');
 });
